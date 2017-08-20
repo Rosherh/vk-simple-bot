@@ -1,0 +1,20 @@
+{
+    "name": "rosherh/botmanager",
+    "description": "Demo bot for vk. from AccessMediaGroup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rosherh",
+            "email": "shalan7@yandex.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "core/classes/bot",
+            "Log\\": "core/classes/",
+            "Api\\": "core/classes/api"
+        },
+        "files": ["core/global.php", "core/config.php"]
+    }
+}
