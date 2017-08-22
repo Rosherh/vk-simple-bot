@@ -1,9 +1,9 @@
 <?php
 
-namespace Api;
+namespace BotManager\Api;
 
 use Exception;
-use Log\Log;
+use BotManager\Log\Log;
 
 class VK
 {

@@ -1,5 +1,6 @@
 <?php
-use Bot\BotManager;
+
+use BotManager\Bot\BotManager;
 
 if (!isset($_REQUEST)) {
     exit;

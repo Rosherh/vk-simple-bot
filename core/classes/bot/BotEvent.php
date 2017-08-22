@@ -1,10 +1,10 @@
 <?php
 
-namespace Bot;
+namespace BotManager\Bot;
 
-use Api\VK;
+use BotManager\Api\VK;
+use BotManager\Log\Log;
 use Exception;
-use Log\Log;
 
 class BotEvent
 {

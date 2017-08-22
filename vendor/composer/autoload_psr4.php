@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Log\\' => array($baseDir . '/core/classes'),
-    'Bot\\' => array($baseDir . '/core/classes/bot'),
-    'Api\\' => array($baseDir . '/core/classes/api'),
+    'BotManager\\Log\\' => array($baseDir . '/core/classes'),
+    'BotManager\\Bot\\' => array($baseDir . '/core/classes/bot'),
+    'BotManager\\Api\\' => array($baseDir . '/core/classes/api'),
 );

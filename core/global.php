@@ -4,10 +4,6 @@ function handlerEvent() {
     return json_decode(file_get_contents('php://input'), true);
 }
 
-function getObject($obj) {
-    return $obj['object'];
-}
-
 function debug_enable($enable) {
     if ($enable) {
         ini_set('display_errors', 1);

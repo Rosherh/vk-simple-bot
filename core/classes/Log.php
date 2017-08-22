@@ -1,6 +1,6 @@
 <?php
 
-namespace Log;
+namespace BotManager\Log;
 
 define('BOT_LOG_INFO', '[INFO] ');
 define('BOT_LOG_ERROR', '[ERROR] ');

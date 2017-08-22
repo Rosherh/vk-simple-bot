@@ -1,9 +1,9 @@
 <?php
 
-namespace Bot;
+namespace BotManager\Bot;
 
 use Exception;
-use Log\Log;
+use BotManager\Log\Log;
 
 class BotManager
 {
@@ -30,7 +30,7 @@ class BotManager
                     break;
 
                 case BotEvent::$event['message_new']:
-                    $obj = getObject($event);
+                    $obj = $this->getObject($event);
 
                     /*
                      * Если боту нужна поддержка каких-либо команд
@@ -58,6 +58,10 @@ class BotManager
         } catch (Exception $e) {
             Log::e($e);
         }
+    }
+
+    private function getObject($obj) {
+        return $obj['object'];
     }
 
     function response($data = null) {
