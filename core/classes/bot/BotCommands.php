@@ -1,6 +1,6 @@
 <?php
 
-namespace BotManager\Bot;
+namespace Rosherh\BotManager\Bot;
 
 use Exception;
 

@@ -12,24 +12,24 @@ class ComposerStaticInit35083cd3632813149dd18c9252f6f744
     );
 
     public static $prefixLengthsPsr4 = array (
-        'B' => 
+        'R' => 
         array (
-            'BotManager\\Log\\' => 15,
-            'BotManager\\Bot\\' => 15,
-            'BotManager\\Api\\' => 15,
+            'Rosherh\\BotManager\\Log\\' => 23,
+            'Rosherh\\BotManager\\Bot\\' => 23,
+            'Rosherh\\BotManager\\Api\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'BotManager\\Log\\' => 
+        'Rosherh\\BotManager\\Log\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core/classes',
         ),
-        'BotManager\\Bot\\' => 
+        'Rosherh\\BotManager\\Bot\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core/classes/bot',
         ),
-        'BotManager\\Api\\' => 
+        'Rosherh\\BotManager\\Api\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core/classes/api',
         ),

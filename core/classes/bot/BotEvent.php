@@ -1,9 +1,9 @@
 <?php
 
-namespace BotManager\Bot;
+namespace Rosherh\BotManager\Bot;
 
-use BotManager\Api\VK;
-use BotManager\Log\Log;
+use Rosherh\BotManager\Api\VK;
+use Rosherh\BotManager\Log\Log;
 use Exception;
 
 class BotEvent

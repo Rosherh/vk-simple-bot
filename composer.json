@@ -11,9 +11,9 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "BotManager\\Bot\\": "core/classes/bot",
-            "BotManager\\Log\\": "core/classes/",
-            "BotManager\\Api\\": "core/classes/api"
+            "Rosherh\\BotManager\\Bot\\": "core/classes/bot",
+            "Rosherh\\BotManager\\Log\\": "core/classes/",
+            "Rosherh\\BotManager\\Api\\": "core/classes/api"
         },
         "files": ["core/global.php", "core/config.php"]
     }

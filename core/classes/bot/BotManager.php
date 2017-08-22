@@ -1,9 +1,9 @@
 <?php
 
-namespace BotManager\Bot;
+namespace Rosherh\BotManager\Bot;
 
 use Exception;
-use BotManager\Log\Log;
+use Rosherh\BotManager\Log\Log;
 
 class BotManager
 {

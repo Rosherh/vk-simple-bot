@@ -1,6 +1,6 @@
 <?php
 
-use BotManager\Bot\BotManager;
+use Rosherh\BotManager\Bot\BotManager;
 
 if (!isset($_REQUEST)) {
     exit;
